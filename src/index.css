@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-primary: #1289a1;
+  --color-primary-50: #f0f9fa;
+  --color-primary-100: #dcf1f4;
+  --color-primary-200: #bee4eb;
+  --color-primary-300: #91ced9;
+  --color-primary-400: #5dafc1;
+  --color-primary-500: #1289a1;
+  --color-primary-600: #117086;
+  --color-primary-700: #135b6d;
+  --color-primary-800: #174b5a;
+  --color-primary-900: #173f4d;
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
